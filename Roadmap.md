@@ -168,3 +168,36 @@ Here’s a perfect roadmap for building the Customer Interaction Logger app with
 4. **Phase 5 & 6:** Test, debug, and polish for deployment.
 
 Would you like code snippets or help with setting up any specific part? 🚀
+
+customer-interaction-logger/
+│
+├── public/
+│   └── index.html             # Root HTML file
+│
+├── src/
+│   ├── app/
+│   │   ├── store.js           # Redux store configuration
+│   │   └── rootReducer.js     # Combine all reducers here
+│   │
+│   ├── components/
+│   │   ├── InteractionForm/
+│   │   │   ├── InteractionForm.jsx    # Form for adding/editing interactions
+│   │   │   └── InteractionForm.css    # Styles for InteractionForm
+│   │   │
+│   │   ├── InteractionList/
+│   │   │   ├── InteractionList.jsx    # List of interactions
+│   │   │   └── InteractionList.css    # Styles for InteractionList
+│   │   │
+│   │   ├── InteractionItem/
+│   │   │   ├── InteractionItem.jsx    # Individual interaction entry
+│   │   │   └── InteractionItem.css    # Styles for InteractionItem
+│   │   │
+│   │   └── Filter/
+│   │       ├── Filter.jsx             # Filter component for type and mood
+│   │       └── Filter.css             # Styles for Filter
+│   │
+│   ├── features/
+│   │   └── interactions/
+│   │       ├── interactionsSlice.js   # Redux slice for interactions
+│   │       └── interactionsAPI.js 
+
